@@ -3,15 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
-    "@divriots/starter-simba": "^0.3.2",
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@web/dev-server-esbuild": "^0.2.16",
-    "@web/dev-server-rollup": "^0.3.13",
     "@web/test-runner": "^0.13.22",
-    "eslint": "^8.0.0",
-    "mocha": "^9.1.2",
-    "parse5": "^6.0.1"
+    "eslint": "^8.0.0"
   },
   "scripts": {
     "test": "web-test-runner tests/**/*.js --node-resolve"
